@@ -59,4 +59,15 @@ public class Employee {
     public void setBirthDate(String birthDate) {
         BirthDate = birthDate;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "FullName='" + FullName + '\'' +
+                ", Position='" + Position + '\'' +
+                ", Email='" + Email + '\'' +
+                ", Phone='" + Phone + '\'' +
+                ", BirthDate='" + BirthDate + '\'' +
+                '}';
+    }
 }
