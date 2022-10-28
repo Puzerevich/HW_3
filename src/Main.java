@@ -17,10 +17,12 @@ public class Main {
             i++;
             System.out.println(i+"). Full Name:"+e.getFullName()+",  Postion:"+e.getPosition()+",  Birth Date:"+e.getBirthDate()+",  phone:"+e.getPhone()+",  email:"+e.getEmail());
         }
+
         System.out.println("\nOverride \"toString\" in class Employee.");
         for (Employee e : staff){
             System.out.println(e.toString());
         }
+
         System.out.println("\nTest \"printf\"");
         for(Employee e : staff){
         System.out.printf("Full Name:%s" +
