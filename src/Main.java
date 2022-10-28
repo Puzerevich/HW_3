@@ -11,9 +11,9 @@ public class Main {
         staff[2] = new Employee("Sasha", "Team lead", "mail3@mail.ua", "=380507778899", "11.12.1980");
 
         int i=0;
+        System.out.println("Staff list:");
         for(Employee e : staff){
             i++;
-            System.out.println("Staff list:");
             System.out.println(i+"). Full Name:"+e.getFullName()+",  Postion:"+e.getPosition()+",  Birth Date:"+e.getBirthDate()+",  phone:"+e.getPhone()+",  email:"+e.getEmail());
         }
 
