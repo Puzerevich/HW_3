@@ -39,6 +39,5 @@ public class Main {
         System.out.println("Class \"Car\":");
         Car cr = new Car();
         cr.Start();
-
     }
 }
