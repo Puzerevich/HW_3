@@ -1,7 +1,6 @@
 package Package_1;
 
 public class Employee {
-
     private String FullName;
     private String Position;
     private String Email;
