@@ -25,11 +25,7 @@ public class Main {
 
         System.out.println("\nTest \"printf\"");
         for(Employee e : staff){
-        System.out.printf("Full Name:%s" +
-                    "\nPostion:%s"+
-                    "\nBirth Date:%s"+
-                    "\nphone:%s"+
-                    "\nemail:%s", e.getFullName(), e.getPosition(), e.getBirthDate(), e.getEmail(), e.getPhone());
+        System.out.printf("Full Name:%s\nPostion:%s\nBirth Date:%s\nphone:%s\nemail:%s", e.getFullName(), e.getPosition(), e.getBirthDate(), e.getEmail(), e.getPhone());
             System.out.println("\n");
         }
 
@@ -43,5 +39,6 @@ public class Main {
         System.out.println("Class \"Car\":");
         Car cr = new Car();
         cr.Start();
+
     }
 }
