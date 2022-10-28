@@ -1,5 +1,7 @@
 import Package_1.Employee;
 import Package_1.Car;
+import Package_1.SameName;
+import Package_2.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +20,9 @@ public class Main {
         }
 
         System.out.println("\nTask_2");
-
+        SameName sm1 = new SameName();
+        Package_2.SameName sm2 = new Package_2.SameName();
+        System.out.println(sm2.getRes());
 
 
         System.out.println("\nTask_3");
