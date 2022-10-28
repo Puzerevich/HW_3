@@ -1,7 +1,6 @@
 import Package_1.Employee;
 import Package_1.Car;
 import Package_1.SameName;
-import Package_2.*;
 
 public class Main {
     public static void main(String[] args) {
